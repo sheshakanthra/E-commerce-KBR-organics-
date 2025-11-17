@@ -1,70 +1,118 @@
-<<<<<<< HEAD
-# KBR Organics — Frontend & Backend
+🌿 KBR Organics — Full-Stack Web Application
+React + Vite + Express.js + MongoDB
 
-This repository contains a small React + Vite frontend and an Express + Mongoose backend for a sample organic products app.
+A scalable, production-ready full-stack application built for managing and showcasing organic products.
+This repository includes both frontend and backend, fully structured for modern development workflows.
 
-Quick start (development)
+🔥 Features
 
-1. Start backend
+Modern SPA Frontend built with React + Vite
 
-```powershell
+RESTful Backend API powered by Express.js
+
+MongoDB + Mongoose for high-performance data modeling
+
+Modular & Scalable Folder Structure
+
+Environment-based configuration
+
+Easy local development setup
+
+API-ready for authentication & product management
+
+🛠️ Tech Stack
+Frontend
+
+React.js
+
+Vite
+
+TailwindCSS / CSS Modules
+
+Axios
+
+React Router
+
+Backend
+
+Node.js
+
+Express.js
+
+Mongoose
+
+dotenv
+
+CORS
+
+JSON Web Tokens (optional authentication setup)
+
+📁 Project Structure
+KBR-Organics/
+│
+├── kbr-organics-frontend/     # React + Vite frontend
+│   ├── src/
+│   ├── public/
+│   └── vite.config.js
+│
+├── kbr-organics-backend/      # Express + MongoDB backend
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   └── server.js
+│
+└── README.md
+
+🚀 Getting Started
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/kbr-organics.git
+cd kbr-organics
+
+⚙️ Backend Setup
 cd kbr-organics-backend
 npm install
 npm run dev
-```
 
-2. Start frontend (in a new terminal)
 
-```powershell
-cd ..\
+Backend default URL:
+http://localhost:5000
+
+Backend Environment (.env)
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_secret
+
+🎨 Frontend Setup
+cd kbr-organics-frontend
 npm install
 npm run dev
-```
 
-3. Open the app
 
-```powershell
-start 'http://localhost:5173'
-```
+Frontend default URL:
+http://localhost:5173
 
-Notes
-- The backend falls back to `sampleProducts.json` when MongoDB is not available so you can preview the frontend without a running DB.
-- Health endpoint: `GET /api/health` (returns `mongoState`: `0` = disconnected, `1` = connected).
+Frontend Environment (.env)
+VITE_API_URL=http://localhost:5000
 
-How to push to GitHub
+📡 API Endpoints Overview
+Method	Endpoint	Description
+GET	/api/products	Fetch all products
+POST	/api/products	Add a new product
+PUT	/api/products/:id	Update product details
+DELETE	/api/products/:id	Delete a product
+🧩 Build & Deployment
+Frontend Production Build
+npm run build
 
-Option A — using GitHub CLI (recommended if `gh` is installed and authenticated):
+Backend Production Start
+npm start
 
-```powershell
-# from repository root
-gh repo create <your-username>/<repo-name> --public --source=. --remote=origin --push
-```
 
-Option B — manual (create repo on github.com and then):
+Supports deployment on:
 
-```powershell
-git remote add origin https://github.com/<your-username>/<repo-name>.git
-git branch -M main
-git push -u origin main
-```
+Vercel (Frontend)
 
-License: MIT (replace or remove as you prefer)
-# React + Vite
+Render / Railway / AWS EC2 (Backend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# E-com-website-
->>>>>>> 2ced4d91ab738ab5351cd56ac324693986efe573
+MongoDB Atlas (Database)
