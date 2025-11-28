@@ -1,0 +1,610 @@
+[
+  {
+    "id": "org-1",
+    "title": "Turmeric",
+    "category": "Organic",
+    "price": "₹40",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "org-2",
+    "title": "Sugarcane Jaggery",
+    "category": "Organic",
+    "price": "₹90",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1614735241165-6756e1df61ab?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "org-3",
+    "title": "Palm Jaggery",
+    "category": "Organic",
+    "price": "₹400",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1589539148230-0a5b707aa7d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "org-4",
+    "title": "Red Chilli",
+    "category": "Organic",
+    "price": "₹400",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1563483783225-b55ca5d6b413?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "org-5",
+    "title": "Tamarind",
+    "category": "Organic",
+    "price": "₹140",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-1",
+    "title": "Thooyamalli",
+    "category": "White Rice",
+    "price": "₹80",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-2",
+    "title": "Thooyamalli Raw",
+    "category": "White Rice",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-3",
+    "title": "Thanga Samba",
+    "category": "White Rice",
+    "price": "₹85",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-4",
+    "title": "Aathur Kichadi",
+    "category": "White Rice",
+    "price": "₹80",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-5",
+    "title": "Vasanai Seeraga Samba",
+    "category": "White Rice",
+    "price": "₹120",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-6",
+    "title": "Seeraga Samba Raw",
+    "category": "White Rice",
+    "price": "₹120",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-7",
+    "title": "Mani Samba",
+    "category": "White Rice",
+    "price": "₹160",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-8",
+    "title": "Milagu Samba",
+    "category": "White Rice",
+    "price": "₹110",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-9",
+    "title": "Garudan Samba",
+    "category": "White Rice",
+    "price": "₹110",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-10",
+    "title": "Ponmani Idli Rice",
+    "category": "White Rice",
+    "price": "₹60",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-11",
+    "title": "Ilupai Poo Samba",
+    "category": "White Rice",
+    "price": "₹180",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-12",
+    "title": "Sorna Masoori",
+    "category": "White Rice",
+    "price": "₹85",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "wr-13",
+    "title": "Sivan Samba",
+    "category": "White Rice",
+    "price": "₹90",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-1",
+    "title": "Karuppu Kavuni",
+    "category": "Brown Rice",
+    "price": "₹220",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-2",
+    "title": "Maapillai Samba",
+    "category": "Brown Rice",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-3",
+    "title": "Poongar Rice",
+    "category": "Brown Rice",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-4",
+    "title": "Kullakar Rice",
+    "category": "Brown Rice",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-5",
+    "title": "Karunguruvai Rice",
+    "category": "Brown Rice",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-6",
+    "title": "Kaatuyanam Rice",
+    "category": "Brown Rice",
+    "price": "₹110",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-7",
+    "title": "Kudavazhai Rice",
+    "category": "Brown Rice",
+    "price": "₹110",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-8",
+    "title": "Rathasaali Rice",
+    "category": "Brown Rice",
+    "price": "₹160",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-9",
+    "title": "Moongil Rice",
+    "category": "Brown Rice",
+    "price": "₹400",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-10",
+    "title": "Navara Rice",
+    "category": "Brown Rice",
+    "price": "₹110",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "br-11",
+    "title": "Kerala Mattai Rice",
+    "category": "Brown Rice",
+    "price": "₹80",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-1",
+    "title": "Groundnut Oil",
+    "category": "Oil Items",
+    "price": "₹260",
+    "unit": "L",
+    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-2",
+    "title": "Sesame Oil",
+    "category": "Oil Items",
+    "price": "₹400",
+    "unit": "L",
+    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-3",
+    "title": "Coconut Oil",
+    "category": "Oil Items",
+    "price": "₹260",
+    "unit": "L",
+    "image": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-4",
+    "title": "Castor Oil",
+    "category": "Oil Items",
+    "price": "₹400",
+    "unit": "L",
+    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-5",
+    "title": "Joints Pain Oil",
+    "category": "Oil Items",
+    "price": "₹80",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1608571423902-eed4a5e84e43?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-6",
+    "title": "Honey",
+    "category": "Oil Items",
+    "price": "₹80",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1587049352846-4a222e784d38?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-7",
+    "title": "Country Cow Ghee",
+    "category": "Oil Items",
+    "price": "₹1400",
+    "unit": "L",
+    "image": "https://images.unsplash.com/photo-1620662745488-488861036ab4?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-8",
+    "title": "Mundvattukal Kizhangu",
+    "category": "Oil Items",
+    "price": "₹200",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1593105544559-ecb03bf76f87?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-9",
+    "title": "Soup Powder",
+    "category": "Oil Items",
+    "price": "₹150",
+    "unit": "pack",
+    "image": "https://images.unsplash.com/photo-1610725664338-23005c5b92b5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-10",
+    "title": "Pirandai Soup Powder",
+    "category": "Oil Items",
+    "price": "₹120",
+    "unit": "pack",
+    "image": "https://images.unsplash.com/photo-1610725664338-23005c5b92b5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-11",
+    "title": "Poondu Idli Podi",
+    "category": "Oil Items",
+    "price": "₹60",
+    "unit": "pack",
+    "image": "https://images.unsplash.com/photo-1610725664338-23005c5b92b5?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "oil-12",
+    "title": "Herbal Tea Powder",
+    "category": "Oil Items",
+    "price": "₹100",
+    "unit": "pack",
+    "image": "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-1",
+    "title": "Pirandai Thokku",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-2",
+    "title": "Mango Inji Pickle",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-3",
+    "title": "Narathai Pickle",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-4",
+    "title": "Lemon Pickle",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-5",
+    "title": "Milagu Kuzhambu",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pk-6",
+    "title": "Garlic Pickle",
+    "category": "Pickles / Thokku",
+    "price": "₹110",
+    "unit": "bottle",
+    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-1",
+    "title": "Thoor Dhal",
+    "category": "Pulses",
+    "price": "₹220",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-2",
+    "title": "Moong Dhal",
+    "category": "Pulses",
+    "price": "₹160",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-3",
+    "title": "Channa Dhal",
+    "category": "Pulses",
+    "price": "₹130",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-4",
+    "title": "Urad Dhal",
+    "category": "Pulses",
+    "price": "₹180",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-5",
+    "title": "Moong Whole",
+    "category": "Pulses",
+    "price": "₹160",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-6",
+    "title": "Black Urad Dhal",
+    "category": "Pulses",
+    "price": "₹160",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-7",
+    "title": "Urad Split",
+    "category": "Pulses",
+    "price": "₹170",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "pl-8",
+    "title": "Brown Channa",
+    "category": "Pulses",
+    "price": "₹130",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1515543904379-3d757afe72e3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-1",
+    "title": "Thinai",
+    "category": "Millets",
+    "price": "₹120",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-2",
+    "title": "Varagu",
+    "category": "Millets",
+    "price": "₹120",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-3",
+    "title": "Saamai",
+    "category": "Millets",
+    "price": "₹120",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-4",
+    "title": "Kuthirai Vaali",
+    "category": "Millets",
+    "price": "₹130",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-5",
+    "title": "Kambu",
+    "category": "Millets",
+    "price": "₹40",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-6",
+    "title": "Solam",
+    "category": "Millets",
+    "price": "₹80",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-7",
+    "title": "Red Solam",
+    "category": "Millets",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-8",
+    "title": "Kambu (Variety 2)",
+    "category": "Millets",
+    "price": "₹60",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-9",
+    "title": "Raagi",
+    "category": "Millets",
+    "price": "₹70",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-10",
+    "title": "Sesame",
+    "category": "Millets",
+    "price": "₹260",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "ml-11",
+    "title": "Horsegram",
+    "category": "Millets",
+    "price": "₹100",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1621886566453-65997424602f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-1",
+    "title": "Pink Salt",
+    "category": "Spices",
+    "price": "₹80",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1626079684333-8c4608c2323f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-2",
+    "title": "Mustard",
+    "category": "Spices",
+    "price": "₹15",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-3",
+    "title": "Pepper",
+    "category": "Spices",
+    "price": "₹100",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-4",
+    "title": "Cumin",
+    "category": "Spices",
+    "price": "₹70",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-5",
+    "title": "Fenugreek",
+    "category": "Spices",
+    "price": "₹20",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-6",
+    "title": "Sonf",
+    "category": "Spices",
+    "price": "₹45",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-7",
+    "title": "Cardamom",
+    "category": "Spices",
+    "price": "₹50",
+    "unit": "10g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-8",
+    "title": "Coriander",
+    "category": "Spices",
+    "price": "₹240",
+    "unit": "kg",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-9",
+    "title": "Omam",
+    "category": "Spices",
+    "price": "₹70",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "sp-10",
+    "title": "Black Jeera",
+    "category": "Spices",
+    "price": "₹65",
+    "unit": "100g",
+    "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&w=600&q=80"
+  }
+]
