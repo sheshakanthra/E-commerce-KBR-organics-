@@ -1,0 +1,38 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="50%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+      <stop offset="50%" stop-color="rgba(255,255,255,0.7)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+      <animate attributeName="x1" values="-100%;100%" dur="5s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="0%;200%" dur="5s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="260" rx="30" fill="url(#grad)" />
+
+  <!-- Soft moving circles -->
+  <circle cx="150" cy="220" r="120" fill="rgba(255,255,255,0.06)">
+    <animate attributeName="cy" values="210;230;210" dur="6s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1050" cy="60" r="90" fill="rgba(255,255,255,0.06)">
+    <animate attributeName="cy" values="50;80;50" dur="7s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Shine overlay -->
+  <rect width="1200" height="260" fill="url(#shine)" opacity="0.5" />
+
+  <!-- Text -->
+  <text x="50%" y="45%" text-anchor="middle" fill="#fefce8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="48" font-weight="700">
+    KBR ORGANICS
+  </text>
+  <text x="50%" y="65%" text-anchor="middle" fill="#dcfce7" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="22">
+    Pure &amp; Natural • Full-Stack E-Commerce Experience
+  </text>
+</svg>

@@ -1,118 +1,108 @@
-🌿 KBR Organics — Full-Stack Web Application
-React + Vite + Express.js + MongoDB
+<p align="center">
+  <img src="./frontend/assets/kbr-banner.svg" alt="KBR Organics Banner" />
+</p>
 
-A scalable, production-ready full-stack application built for managing and showcasing organic products.
-This repository includes both frontend and backend, fully structured for modern development workflows.
+<h1 align="center">🌿 KBR ORGANICS – Pure & Natural</h1>
 
-🔥 Features
+<p align="center">
+  <em>A modern, elegant and fully responsive full-stack web application for organic products.</em>
+</p>
 
-Modern SPA Frontend built with React + Vite
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Backend-Express%20%2B%20MongoDB-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Styling-TailwindCSS-38bdf8?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Deployed_On-Vercel-black?style=for-the-badge" />
+</p>
 
-RESTful Backend API powered by Express.js
+---
 
-MongoDB + Mongoose for high-performance data modeling
+## ✨ Overview
 
-Modular & Scalable Folder Structure
+**KBR Organics** is a complete full-stack web application designed for selling organic products with a smooth user experience, modern UI, and scalable backend API.
 
-Environment-based configuration
+It includes:
+- 🧭 React + Vite frontend  
+- ⚙️ Node.js + Express backend  
+- 🛢️ MongoDB database  
+- 🎨 TailwindCSS UI  
+- 📡 REST API with product management  
 
-Easy local development setup
+---
 
-API-ready for authentication & product management
+## 🎨 Project Screenshots
 
-🛠️ Tech Stack
-Frontend
+### 🏡 Homepage
+<img src="./frontend/assets/1-home.png" />
 
-React.js
+### 🛒 Products Page
+<img src="./frontend/assets/2-products.png" />
 
-Vite
+### 🌾 About / Story Page
+<img src="./frontend/assets/3-about.png" />
 
-TailwindCSS / CSS Modules
+---
 
-Axios
+## 🧩 Tech Stack
 
-React Router
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" />
+</p>
 
-Backend
+---
 
-Node.js
+## 🔥 Features
 
-Express.js
+### 🌐 Frontend (React + Vite)
+- Fast SPA  
+- Clean responsive UI  
+- Product display & filtering  
+- API integration using Axios  
+- Modern routing with React Router  
 
-Mongoose
+### 🖥️ Backend (Node + Express)
+- REST API architecture  
+- MongoDB database  
+- Modular routes, controllers, models  
+- Environment-based config  
+- Optional JWT authentication  
 
-dotenv
+---
 
-CORS
+## 📁 Project Structure
 
-JSON Web Tokens (optional authentication setup)
 
-📁 Project Structure
+
 KBR-Organics/
 │
-├── kbr-organics-frontend/     # React + Vite frontend
-│   ├── src/
-│   ├── public/
-│   └── vite.config.js
+├── backend/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── data/
+│ ├── server.js
+│ └── package.json
 │
-├── kbr-organics-backend/      # Express + MongoDB backend
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── config/
-│   └── server.js
+├── frontend/
+│ ├── assets/
+│ │ ├── kbr-banner.svg
+│ │ ├── 1-home.png
+│ │ ├── 2-products.png
+│ │ └── 3-about.png
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ ├── context/
+│ │ ├── App.jsx
+│ │ ├── index.css
+│ │ └── main.jsx
+│ ├── vite.config.js
+│ └── package.json
 │
 └── README.md
-
-🚀 Getting Started
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/kbr-organics.git
-cd kbr-organics
-
-⚙️ Backend Setup
-cd kbr-organics-backend
-npm install
-npm run dev
-
-
-Backend default URL:
-http://localhost:5000
-
-Backend Environment (.env)
-PORT=5000
-MONGO_URI=your_mongo_connection_string
-JWT_SECRET=your_secret
-
-🎨 Frontend Setup
-cd kbr-organics-frontend
-npm install
-npm run dev
-
-
-Frontend default URL:
-http://localhost:5173
-
-Frontend Environment (.env)
-VITE_API_URL=http://localhost:5000
-
-📡 API Endpoints Overview
-Method	Endpoint	Description
-GET	/api/products	Fetch all products
-POST	/api/products	Add a new product
-PUT	/api/products/:id	Update product details
-DELETE	/api/products/:id	Delete a product
-🧩 Build & Deployment
-Frontend Production Build
-npm run build
-
-Backend Production Start
-npm start
-
-
-Supports deployment on:
-
-Vercel (Frontend)
-
-Render / Railway / AWS EC2 (Backend)
-
-MongoDB Atlas (Database)
