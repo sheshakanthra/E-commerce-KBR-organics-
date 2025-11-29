@@ -21,17 +21,11 @@ export default function Header() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center text-white font-serif font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
-            K
-          </div>
-          <div className="flex flex-col">
-            <span className={`text-xl font-serif font-bold leading-none ${isScrolled ? 'text-primary-dark' : 'text-primary-dark'}`}>
-              KBR Organics
-            </span>
-            <span className="text-[0.65rem] uppercase tracking-widest text-secondary font-medium">
-              Pure & Natural
-            </span>
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="KBR Organics"
+            className="h-20 w-auto object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform"
+          />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

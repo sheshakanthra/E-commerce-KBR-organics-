@@ -16,7 +16,7 @@ export default function Hero() {
 					<span className="inline-block py-1 px-3 rounded-full bg-accent/20 border border-accent/30 text-accent text-sm font-medium mb-6 backdrop-blur-sm">
 						100% Organic & Fresh
 					</span>
-					<h1 className="text-5xl md:text-7xl font-serif font-bold leading-tight mb-6">
+					<h1 className="text-5xl md:text-7xl font-serif font-bold leading-tight mb-6 text-secondary-light">
 						Mannin Suvai, <br />
 						<span className="text-accent">Manadhin Nambikkai</span>
 					</h1>
