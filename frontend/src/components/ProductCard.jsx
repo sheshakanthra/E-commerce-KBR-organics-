@@ -64,8 +64,8 @@ export default function ProductCard({ p }) {
 	const displayPrice = (getBasePrice(p.price) * currentOption.multiplier).toFixed(0)
 
 	return (
-		<div className="bg-white rounded-2xl shadow-card hover:shadow-xl transition-all duration-300 group overflow-hidden flex flex-col h-full border border-surface-secondary">
-			<div className="relative h-48 overflow-hidden">
+		<div className="bg-white rounded-xl md:rounded-2xl shadow-card hover:shadow-xl transition-all duration-300 group overflow-hidden flex flex-col h-full border border-surface-secondary">
+			<div className="relative h-36 md:h-48 overflow-hidden">
 				<img
 					src={p.image}
 					alt={p.title}
@@ -76,46 +76,53 @@ export default function ProductCard({ p }) {
 				</div>
 			</div>
 
-			<div className="p-5 flex flex-col flex-1">
-				<h3 className="text-lg font-serif font-bold text-text-main mb-1 group-hover:text-primary transition-colors line-clamp-1">
+			<div className="p-3 md:p-5 flex flex-col flex-1">
+				<h3 className="text-sm md:text-lg font-serif font-bold text-text-main mb-1 group-hover:text-primary transition-colors line-clamp-1">
 					{p.title}
 				</h3>
-				<p className="text-sm text-text-muted mb-4 line-clamp-2 flex-1">
+				<p className="hidden md:block text-sm text-text-muted mb-4 line-clamp-2 flex-1">
 					{p.description || 'Freshly harvested organic produce, grown with care and love for nature.'}
 				</p>
 
 				{/* Weight Selector */}
-				<div className="mb-4">
-					<label className="text-xs text-text-muted uppercase tracking-wider block mb-1">Select Quantity</label>
-					<select
-						value={currentOption.label}
-						onChange={(e) => {
-							const opt = options.find(o => o.label === e.target.value)
-							setSelectedOption(opt)
-						}}
-						className="w-full p-2 bg-surface border border-gray-200 rounded-lg text-sm focus:outline-none focus:border-primary transition-colors"
-					>
-						{options.map(opt => (
-							<option key={opt.label} value={opt.label}>
-								{opt.label}
-							</option>
-						))}
-					</select>
+				<div className="mb-2 md:mb-4 mt-auto">
+					<label className="text-[10px] md:text-xs text-text-muted uppercase tracking-wider block mb-1">Select Qty</label>
+					<div className="relative">
+						<select
+							value={currentOption.label}
+							onChange={(e) => {
+								const opt = options.find(o => o.label === e.target.value)
+								setSelectedOption(opt)
+							}}
+							className="w-full py-1.5 px-2 bg-surface border border-gray-200 rounded-lg text-xs md:text-sm focus:outline-none focus:border-primary transition-colors appearance-none"
+						>
+							{options.map(opt => (
+								<option key={opt.label} value={opt.label}>
+									{opt.label}
+								</option>
+							))}
+						</select>
+						<span className="absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">
+							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-3 h-3">
+								<path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+							</svg>
+						</span>
+					</div>
 				</div>
 
-				<div className="flex items-center justify-between mt-auto pt-4 border-t border-gray-50">
-					<div className="flex flex-col">
-						<span className="text-xs text-text-muted uppercase tracking-wider">Price</span>
-						<span className="text-xl font-bold text-primary-dark">
+				<div className="flex flex-col md:flex-row md:items-center justify-between gap-2 pt-2 border-t border-gray-50">
+					<div className="flex flex-row md:flex-col items-baseline md:items-start justify-between">
+						<span className="hidden md:block text-xs text-text-muted uppercase tracking-wider">Price</span>
+						<span className="text-base md:text-xl font-bold text-primary-dark">
 							₹{displayPrice}
 						</span>
 					</div>
 					<button
 						onClick={handleAddToCart}
-						className="bg-primary text-white px-4 py-2 rounded-lg shadow-md hover:bg-primary-dark transition-colors flex items-center gap-2 text-sm font-medium active:scale-95 transform"
+						className="w-full md:w-auto bg-primary text-white px-3 py-1.5 md:py-2 rounded-lg shadow-md hover:bg-primary-dark transition-colors flex items-center justify-center gap-2 text-xs md:text-sm font-medium active:scale-95 transform"
 					>
 						Add
-						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-4 h-4">
+						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-3 h-3 md:w-4 md:h-4">
 							<path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
 						</svg>
 					</button>

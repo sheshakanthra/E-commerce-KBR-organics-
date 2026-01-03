@@ -68,7 +68,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
             {products.map(p => <ProductCard key={p.id} p={p} />)}
           </div>
 
@@ -80,19 +80,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-24 bg-primary relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
-        <div className="container mx-auto px-4 relative z-10 text-center">
-          <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Join the Organic Movement</h2>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto mb-10">
-            Subscribe to our weekly basket service and get fresh seasonal vegetables delivered to your doorstep every week.
-          </p>
-          <button className="px-10 py-4 bg-accent text-white font-bold rounded-full shadow-lg hover:bg-accent-hover hover:shadow-xl transform hover:-translate-y-1 transition-all">
-            Start Your Subscription
-          </button>
-        </div>
-      </section>
     </div>
   )
 }

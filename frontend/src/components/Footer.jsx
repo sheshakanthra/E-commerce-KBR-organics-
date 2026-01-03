@@ -14,61 +14,59 @@ export default function Footer() {
                             </div>
                             <span className="text-2xl font-serif font-bold">KBR Organics</span>
                         </div>
-                        <p className="text-gray-300 text-sm leading-relaxed mb-6">
-                            Mannin Suvai, Manadhin Nambikkai. We are dedicated to bringing you the freshest, most wholesome organic produce directly from our local farmers.
+                        <p className="text-gray-300 text-sm leading-relaxed mb-8 opacity-90">
+                            Rooted in tradition, KBR Organics delivers the purest farm-fresh produce directly to your home. We are dedicated to sustainable farming, ensuring every harvest is natural, chemical-free, and full of wholesome goodness for your family.
                         </p>
-                        <div className="flex gap-4">
-                            {['facebook', 'twitter', 'instagram', 'linkedin'].map((social) => (
-                                <a key={social} href="#" className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent transition-colors">
-                                    <span className="sr-only">{social}</span>
-                                    <div className="w-4 h-4 bg-current rounded-sm" />
-                                </a>
-                            ))}
-                        </div>
+
                     </div>
 
                     {/* Quick Links */}
+
+
+                    {/* Contact Us (Replacting Quick Links) */}
                     <div>
-                        <h4 className="text-lg font-serif font-bold mb-6 text-accent">Quick Links</h4>
+                        <h4 className="text-lg font-serif font-bold mb-6 text-accent">Contact Us</h4>
                         <ul className="space-y-3 text-sm text-gray-300">
-                            <li>
-                                <Link to="/" className="hover:text-accent transition-colors flex items-center gap-2">
-                                    <span className="w-1 h-1 bg-accent rounded-full" />
-                                    Home
-                                </Link>
+                            <li className="flex items-start gap-2">
+                                <span className="w-1 h-1 bg-accent rounded-full mt-1.5 shrink-0" />
+                                <div>
+                                    <p className="font-semibold text-white">Address</p>
+                                    <p>KBR Organics,</p>
+                                    <p>Tamil Nadu, India</p>
+                                </div>
                             </li>
-                            <li>
-                                <Link to="/about" className="hover:text-accent transition-colors flex items-center gap-2">
-                                    <span className="w-1 h-1 bg-accent rounded-full" />
-                                    About Us
-                                </Link>
+                            <li className="flex items-start gap-2">
+                                <span className="w-1 h-1 bg-accent rounded-full mt-1.5 shrink-0" />
+                                <div>
+                                    <p className="font-semibold text-white">Email</p>
+                                    <a href="mailto:care@kbrorganics.com" className="hover:text-accent transition-colors">care@kbrorganics.com</a>
+                                </div>
                             </li>
-                            <li>
-                                <Link to="/products" className="hover:text-accent transition-colors flex items-center gap-2">
-                                    <span className="w-1 h-1 bg-accent rounded-full" />
-                                    Shop Products
-                                </Link>
+                            <li className="flex items-start gap-2">
+                                <span className="w-1 h-1 bg-accent rounded-full mt-1.5 shrink-0" />
+                                <div>
+                                    <p className="font-semibold text-white">Phone</p>
+                                    <a href="tel:+91123456789" className="hover:text-accent transition-colors">+91 123456789</a>
+                                </div>
                             </li>
-                            <li>
-                                <Link to="/contact" className="hover:text-accent transition-colors flex items-center gap-2">
-                                    <span className="w-1 h-1 bg-accent rounded-full" />
-                                    Contact Us
-                                </Link>
+                            <li className="pt-2 flex gap-3">
+                                {/* Social Icons Reuse - Mini Version */}
+
                             </li>
                         </ul>
                     </div>
 
                     {/* Categories */}
-                    <div>
+                    <div className="text-center">
                         <h4 className="text-lg font-serif font-bold mb-6 text-accent">Categories</h4>
-                        <ul className="grid grid-cols-2 gap-3 text-sm text-gray-300">
-                            {['Organic', 'White Rice', 'Brown Rice', 'Oil Items', 'Pickles / Thokku', 'Pulses', 'Millets', 'Spices'].map((cat) => (
+                        <ul className="inline-grid grid-cols-2 gap-x-8 gap-y-3 text-sm text-gray-300 text-left mx-auto">
+                            {['Brown Rice', 'Millets', 'Oil Items', 'Organic', 'Pickles / Thokku', 'Pulses', 'Spices', 'White Rice'].map((cat) => (
                                 <li key={cat}>
                                     <Link
                                         to={`/products#${cat.toLowerCase().replace(/\s+/g, '-')}`}
                                         className="hover:text-accent transition-colors flex items-center gap-2"
                                     >
-                                        <span className="w-1 h-1 bg-accent rounded-full" />
+                                        <span className="w-1.5 h-1.5 bg-accent rounded-full shrink-0" />
                                         {cat}
                                     </Link>
                                 </li>

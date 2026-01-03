@@ -5,7 +5,7 @@
     "category": "Organic",
     "price": "₹40",
     "unit": "100g",
-    "image": "/images/turmeric.png"
+    "image": "/images/org_turmeric.png"
   },
   {
     "id": "org-2",
@@ -13,7 +13,7 @@
     "category": "Organic",
     "price": "₹90",
     "unit": "kg",
-    "image": "/images/sugarcane_jaggery.png"
+    "image": "/images/org_sugarcane_jaggery.png"
   },
   {
     "id": "org-3",
@@ -21,7 +21,7 @@
     "category": "Organic",
     "price": "₹400",
     "unit": "kg",
-    "image": "/images/palm_jaggery.png"
+    "image": "/images/org_palm_jaggery.png"
   },
   {
     "id": "org-4",
@@ -29,7 +29,7 @@
     "category": "Organic",
     "price": "₹400",
     "unit": "kg",
-    "image": "/images/red_chilli.png"
+    "image": "/images/org_red_chilli.png"
   },
   {
     "id": "org-5",
@@ -37,7 +37,7 @@
     "category": "Organic",
     "price": "₹140",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/org_tamarind.png"
   },
   {
     "id": "wr-1",
@@ -45,7 +45,7 @@
     "category": "White Rice",
     "price": "₹80",
     "unit": "kg",
-    "image": "/images/thooyamalli.png"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-2",
@@ -53,7 +53,7 @@
     "category": "White Rice",
     "price": "₹100",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-3",
@@ -61,7 +61,7 @@
     "category": "White Rice",
     "price": "₹85",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-4",
@@ -69,7 +69,7 @@
     "category": "White Rice",
     "price": "₹80",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-5",
@@ -77,7 +77,7 @@
     "category": "White Rice",
     "price": "₹120",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-6",
@@ -85,7 +85,7 @@
     "category": "White Rice",
     "price": "₹120",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-7",
@@ -93,7 +93,7 @@
     "category": "White Rice",
     "price": "₹160",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-8",
@@ -101,7 +101,7 @@
     "category": "White Rice",
     "price": "₹110",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-9",
@@ -109,7 +109,7 @@
     "category": "White Rice",
     "price": "₹110",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-10",
@@ -117,7 +117,7 @@
     "category": "White Rice",
     "price": "₹60",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-11",
@@ -125,7 +125,7 @@
     "category": "White Rice",
     "price": "₹180",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-12",
@@ -133,7 +133,7 @@
     "category": "White Rice",
     "price": "₹85",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "wr-13",
@@ -141,7 +141,7 @@
     "category": "White Rice",
     "price": "₹90",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_white.png"
   },
   {
     "id": "br-1",
@@ -149,7 +149,7 @@
     "category": "Brown Rice",
     "price": "₹220",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_black.png"
   },
   {
     "id": "br-2",
@@ -157,7 +157,7 @@
     "category": "Brown Rice",
     "price": "₹100",
     "unit": "kg",
-    "image": "/images/maapillai_samba.png"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-3",
@@ -165,7 +165,7 @@
     "category": "Brown Rice",
     "price": "₹100",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-4",
@@ -173,7 +173,7 @@
     "category": "Brown Rice",
     "price": "₹100",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-5",
@@ -181,7 +181,7 @@
     "category": "Brown Rice",
     "price": "₹100",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-6",
@@ -189,7 +189,7 @@
     "category": "Brown Rice",
     "price": "₹110",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-7",
@@ -197,7 +197,7 @@
     "category": "Brown Rice",
     "price": "₹110",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-8",
@@ -205,7 +205,7 @@
     "category": "Brown Rice",
     "price": "₹160",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-9",
@@ -213,7 +213,7 @@
     "category": "Brown Rice",
     "price": "₹400",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-10",
@@ -221,7 +221,7 @@
     "category": "Brown Rice",
     "price": "₹110",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "br-11",
@@ -229,7 +229,7 @@
     "category": "Brown Rice",
     "price": "₹80",
     "unit": "kg",
-    "image": "https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/rice_red.png"
   },
   {
     "id": "oil-1",
@@ -237,7 +237,7 @@
     "category": "Oil Items",
     "price": "₹260",
     "unit": "L",
-    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/oil_groundnut.png"
   },
   {
     "id": "oil-2",
@@ -245,7 +245,7 @@
     "category": "Oil Items",
     "price": "₹400",
     "unit": "L",
-    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/oil_sesame.png"
   },
   {
     "id": "oil-3",
@@ -253,7 +253,7 @@
     "category": "Oil Items",
     "price": "₹260",
     "unit": "L",
-    "image": "https://images.unsplash.com/photo-1590779033100-9f60a05a013d?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/oil_coconut.png"
   },
   {
     "id": "oil-4",
@@ -261,7 +261,7 @@
     "category": "Oil Items",
     "price": "₹400",
     "unit": "L",
-    "image": "https://images.unsplash.com/photo-1474979266404-7caddbcd1a5e?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/oil_castor.png"
   },
   {
     "id": "oil-5",
@@ -277,7 +277,7 @@
     "category": "Oil Items",
     "price": "₹80",
     "unit": "bottle",
-    "image": "/images/honey.png"
+    "image": "/images/oil_honey.png"
   },
   {
     "id": "oil-7",
@@ -285,7 +285,7 @@
     "category": "Oil Items",
     "price": "₹1400",
     "unit": "L",
-    "image": "/images/country_cow_ghee.png"
+    "image": "/images/oil_ghee.png"
   },
   {
     "id": "oil-8",
@@ -333,7 +333,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_pirandai.jpg"
   },
   {
     "id": "pk-2",
@@ -341,7 +341,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_mango_inji.jpg"
   },
   {
     "id": "pk-3",
@@ -349,7 +349,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_narathai.jpg"
   },
   {
     "id": "pk-4",
@@ -357,7 +357,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_lemon.jpg"
   },
   {
     "id": "pk-5",
@@ -365,7 +365,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_milagu_kuzhambu.jpg"
   },
   {
     "id": "pk-6",
@@ -373,7 +373,7 @@
     "category": "Pickles / Thokku",
     "price": "₹110",
     "unit": "bottle",
-    "image": "https://images.unsplash.com/photo-1589135233689-d53804194e34?auto=format&fit=crop&w=600&q=80"
+    "image": "/images/pickle_garlic.jpg"
   },
   {
     "id": "pl-1",

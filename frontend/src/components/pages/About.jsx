@@ -31,8 +31,8 @@ export default function About() {
                         <div className="relative group">
                             <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-accent/20 rounded-2xl transform rotate-2 group-hover:rotate-1 transition-transform duration-500"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5?auto=format&fit=crop&w=800&q=80"
-                                alt="Pure Turmeric"
+                                src="/images/about_spices_oils.png"
+                                alt="Organic Spices and Cold Pressed Oils"
                                 className="relative rounded-xl shadow-2xl w-full h-[500px] object-cover transform transition-transform duration-500 group-hover:scale-[1.01]"
                             />
                         </div>
@@ -77,15 +77,13 @@ export default function About() {
                             <p className="text-text-muted text-lg leading-relaxed">
                                 When you choose KBR Organics, you're not just buying groceries; you're becoming part of a community that values health, sustainability, and the authentic taste of tradition.
                             </p>
-                            <button className="mt-4 px-8 py-3 bg-primary text-white rounded-full hover:bg-primary-dark transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                                View Our Certificates
-                            </button>
+
                         </div>
                         <div className="order-1 md:order-2 relative group">
                             <div className="absolute -inset-4 bg-gradient-to-l from-secondary/20 to-primary/20 rounded-2xl transform -rotate-2 group-hover:-rotate-1 transition-transform duration-500"></div>
                             <img
-                                src="/images/organic_brand.png"
-                                alt="Organic Produce Crate"
+                                src="/images/rice_harvest.png"
+                                alt="Assorted Organic Rice with Harvest Background"
                                 className="relative rounded-xl shadow-2xl w-full h-[500px] object-cover transform transition-transform duration-500 group-hover:scale-[1.01]"
                             />
                         </div>

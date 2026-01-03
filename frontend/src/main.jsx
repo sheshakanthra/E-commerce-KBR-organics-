@@ -8,6 +8,7 @@ import About from "./components/pages/About.jsx";
 import Contact from "./components/pages/Contact.jsx";
 import AdminPanel from "./components/AdminPanel.jsx";
 import Cart from "./components/pages/Cart.jsx";
+import Checkout from "./components/pages/Checkout.jsx";
 import "./index.css";
 
 import { CartProvider } from "./context/CartContext.jsx";
@@ -23,6 +24,7 @@ createRoot(document.getElementById("root")).render(
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="admin" element={<AdminPanel />} />
           </Route>
         </Routes>

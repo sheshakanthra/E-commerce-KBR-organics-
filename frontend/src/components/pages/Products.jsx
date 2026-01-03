@@ -2,9 +2,14 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import ProductCard from '../ProductCard'
 
+import { useLocation } from 'react-router-dom'
+
 export default function Products() {
     const [products, setProducts] = useState([])
     const [loading, setLoading] = useState(true)
+    const location = useLocation()
+    const searchParams = new URLSearchParams(location.search)
+    const searchQuery = searchParams.get('search') || ''
 
     useEffect(() => {
         axios.get('http://localhost:5000/api/products')
@@ -18,8 +23,15 @@ export default function Products() {
             })
     }, [])
 
+    // Filter products based on search
+    const filteredProducts = products.filter(p =>
+        p.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        (p.description && p.description.toLowerCase().includes(searchQuery.toLowerCase())) ||
+        p.category.toLowerCase().includes(searchQuery.toLowerCase())
+    )
+
     // Group products by category
-    const categories = [...new Set(products.map(p => p.category))]
+    const categories = [...new Set(filteredProducts.map(p => p.category))]
 
     return (
         <div className="bg-surface min-h-screen py-12">
@@ -37,13 +49,13 @@ export default function Products() {
                 ) : (
                     <div className="space-y-16">
                         {categories.map(category => {
-                            const categoryProducts = products.filter(p => p.category === category)
+                            const categoryProducts = filteredProducts.filter(p => p.category === category)
                             return (
                                 <div key={category} id={category.toLowerCase().replace(/\s+/g, '-')}>
                                     <h2 className="text-3xl font-serif font-bold text-primary-dark mb-8 border-b border-gray-200 pb-4">
                                         {category}
                                     </h2>
-                                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                                    <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
                                         {categoryProducts.map(p => <ProductCard key={p.id} p={p} />)}
                                     </div>
                                 </div>

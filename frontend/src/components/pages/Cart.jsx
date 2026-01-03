@@ -1,9 +1,10 @@
 import React from 'react';
 import { useCart } from '../../context/CartContext';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 export default function Cart() {
     const { cart, removeFromCart, updateQuantity, cartTotal, clearCart } = useCart();
+    const navigate = useNavigate();
 
     if (cart.length === 0) {
         return (
@@ -92,7 +93,7 @@ export default function Cart() {
                                 <p className="text-sm text-text-muted">Shipping & taxes calculated at checkout</p>
                                 <button
                                     className="w-full md:w-auto px-10 py-4 bg-primary text-white font-bold rounded-full shadow-lg hover:bg-primary-dark hover:shadow-xl transform hover:-translate-y-0.5 transition-all"
-                                    onClick={() => alert('Proceeding to checkout... (This is a demo)')}
+                                    onClick={() => navigate('/checkout')}
                                 >
                                     Proceed to Checkout
                                 </button>
