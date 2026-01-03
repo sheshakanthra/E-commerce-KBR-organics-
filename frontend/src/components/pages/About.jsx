@@ -84,8 +84,8 @@ export default function About() {
                         <div className="order-1 md:order-2 relative group">
                             <div className="absolute -inset-4 bg-gradient-to-l from-secondary/20 to-primary/20 rounded-2xl transform -rotate-2 group-hover:-rotate-1 transition-transform duration-500"></div>
                             <img
-                                src="https://images.unsplash.com/photo-1595815769817-19054ffe612d?q=80&w=1000&auto=format&fit=crop"
-                                alt="Farmer Hands"
+                                src="/images/organic_brand.png"
+                                alt="Organic Produce Crate"
                                 className="relative rounded-xl shadow-2xl w-full h-[500px] object-cover transform transition-transform duration-500 group-hover:scale-[1.01]"
                             />
                         </div>
